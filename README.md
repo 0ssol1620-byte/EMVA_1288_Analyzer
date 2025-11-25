@@ -81,7 +81,7 @@ EMVA_1288_Analyzer/
 
 ---
 
-## Architecture Diagram (Mermaid)
+## Architecture Diagram
 
 ```mermaid
 flowchart LR
