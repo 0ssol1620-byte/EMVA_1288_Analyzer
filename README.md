@@ -84,18 +84,16 @@ EMVA_1288_Analyzer/
 
 ## 아키텍처 다이어그램 (Mermaid)
 
-GitHub 에서 바로 렌더링되도록 Mermaid 다이어그램을 넣어두면 구조 파악에 도움이 됩니다.
-
 ```mermaid
 flowchart LR
     subgraph HW[하드웨어]
-        Cam[Camera (CoaXPress)]
-        LB[LightBox (FTDI)]
+        Cam["Camera (CoaXPress)"]
+        LB["LightBox (FTDI)"]
     end
 
     subgraph Core
         CC[camera_controller.py]
-        CF[camera_facade.py<br/>CxpCamera]
+        CF["camera_facade.py\nCxpCamera"]
         CP[controller_pool.py]
         LBCTL[lightbox_controller.py]
         EP[emva_processor.py]
@@ -108,8 +106,8 @@ flowchart LR
     end
 
     subgraph UI
-        APP[EMVAAnalyzerApp (main.py)]
-        XLS[Template_format.xlsx<br/>(openpyxl)]
+        APP[EMVAAnalyzerApp]
+        XLS["Template_format.xlsx\n(openpyxl)"]
     end
 
     Cam --> CC --> CF
