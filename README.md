@@ -168,8 +168,7 @@ flowchart LR
 
 ## requirements.txt 예시
 
-이 프로젝트를 위한 최소 requirements 는 아래와 같이 정리할 수 있습니다
-(당신이 제공한 환경의 버전을 기준으로 고정).
+이 프로젝트를 위한 최소 requirements 는 아래와 같이 정리할 수 있습니다.
 
 ```text
 PyQt5==5.15.11
@@ -178,8 +177,6 @@ opencv-python==4.11.0.86
 openpyxl==3.1.5
 egrabber==25.3.2.80
 ```
-
-> PyQt5-Qt5, PyQt5_sip 등은 `PyQt5` 설치 시 함께 따라오므로 별도로 적지 않아도 됩니다.
 
 ---
 
