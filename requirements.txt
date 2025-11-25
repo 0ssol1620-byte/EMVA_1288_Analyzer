@@ -1,0 +1,5 @@
+PyQt5==5.15.11
+numpy==1.24.4
+opencv-python==4.11.0.86
+openpyxl==3.1.5
+egrabber==25.3.2.80
